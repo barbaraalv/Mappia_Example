@@ -376,7 +376,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:prodes_cerrado_raster_2000_2021_v20211223</Layers>
+				<Layers>GH:estados</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -386,7 +386,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:prodes_cerrado_raster_2000_2021_v20211223</Layers>
+				<Layers>GH:estados</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -396,7 +396,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:estados</Layers>
+				<Layers>GH:prodes_cerrado_raster_2000_2021_v20211223</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -406,7 +406,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:estados</Layers>
+				<Layers>GH:prodes_cerrado_raster_2000_2021_v20211223</Layers>
 				<Styles></Styles>
 			</TileSet>
 		</VendorSpecificCapabilities>
@@ -673,26 +673,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:prodes_cerrado_raster_2000_2021_v20211223</Name>
-				<Title>prodes_cerrado_raster_2000_2021_v20211223</Title>
-				<Abstract>GH:prodes_cerrado_raster_2000_2021_v20211223 ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸tif˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="-60.1094167" miny="-24.684690462000002" maxx="-41.521761441000024" maxy="-2.3404452999999887"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-60.1094167" miny="-24.684690462000002" maxx="-41.52176144100001" maxy="-2.3404453"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=prodes_cerrado_raster_2000_2021_v20211223"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:estados</Name>
 				<Title>estados</Title>
 				<Abstract>GH:estados ABSTRACT</Abstract>
@@ -709,6 +689,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=estados"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:prodes_cerrado_raster_2000_2021_v20211223</Name>
+				<Title>prodes_cerrado_raster_2000_2021_v20211223</Title>
+				<Abstract>GH:prodes_cerrado_raster_2000_2021_v20211223 ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸tif˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="-60.1094167" miny="-24.684690462000002" maxx="-41.521761441000024" maxy="-2.3404452999999887"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-60.1094167" miny="-24.684690462000002" maxx="-41.52176144100001" maxy="-2.3404453"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=prodes_cerrado_raster_2000_2021_v20211223"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
