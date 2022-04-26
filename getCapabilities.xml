@@ -1027,7 +1027,7 @@
 				<Title>dutovias</Title>
 				<Abstract>GH:dutovias ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+					<Keyword>group˸shp˸˸˸//github.com/barbaraalv/Mappia_Example/releases/download/Map_Download/dutovias.zip˸notListing˸˸maxZoom˸5</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-65.33500036199996" miny="-32.233153191999975" maxx="-34.94012491099987" maxy="-1.3424583849999165"></LatLonBoundingBox>
